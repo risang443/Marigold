@@ -27,3 +27,5 @@
     <p class="text-white text-md font-semibold font-['Poppins']">&copycopyrightugmarigoldlaris</p>
 </div>
 </footer>
+{{-- Script Javascript CDN Flowbite --}}
+<script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
