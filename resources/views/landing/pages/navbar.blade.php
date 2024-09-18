@@ -1,5 +1,5 @@
 <nav class="bg-white border-gray-200  dark:border-gray-700 ">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4 border-b-2 border-b-black">
+    <div class="max-w-screen-2xl flex flex-wrap items-center justify-center mx-auto p-4 border-b-2 border-b-black">
       <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
         <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0  ">
           <li>
@@ -11,6 +11,7 @@
           <li>
             <a href="/" class="block py-2 px-3 text-lg text-gray-900 rounded hover:text-blue-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">Experience</a>
           </li>
+          
               <li>
                   <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar1" class="flex items-center justify-between w-full py-2 px-3 text-lg text-gray-900 rounded hover:text-blue-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-black md:dark:hover:text-blue-500 dark:focus:text-black dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Offering 
                     <i class="fi fi-rr-angle-small-down size-6"></i>
@@ -32,6 +33,9 @@
                         </li>
                       </ul>
                   </div>
+              </li>
+              <li>
+                <a href="/partnership" class="block py-2 px-3 text-lg text-gray-900 rounded hover:text-blue-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">Partnership</a>
               </li>
               <li>
                 <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar2" class="flex items-center justify-between w-full py-2 px-3 text-lg text-gray-900 rounded hover:text-blue-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-black md:dark:hover:text-blue-500 dark:focus:text-black dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">UG Smart Farm Monitoring 
@@ -64,6 +68,9 @@
                     </li>
                   </ul>
               </div>
+          </li>
+          <li>
+            <a href="/about" class="block py-2 px-3 text-lg text-gray-900 rounded hover:text-blue-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">About Us</a>
           </li>
           <li>
             <a href="/" class="block py-2 px-3 text-lg text-gray-900 rounded hover:text-blue-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">Gallery</a>
