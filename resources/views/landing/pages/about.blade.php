@@ -2,7 +2,7 @@
 <body>
     @include('landing.pages.navbar')
 
-    <section class="bg-white mt-6 mb-10 h-screen">
+    <section class="bg-white mt-6 mb-10 w-screen ">
         <div class="max-w-screen-xl px-4 py-6 mx-auto">
             <h1 class="mt-8 p-2 text-purple font-['Poppins'] text-4xl text-center font-bold"> About Us</h1>
 
@@ -11,6 +11,9 @@
             </div>
         </div>
     </section>
-    @include('landing.footer')
+    <div class="absolute bottom-0">
+        @include('landing.footer')
+    </div>
+    
 <body>
 </html>

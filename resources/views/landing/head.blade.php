@@ -20,6 +20,7 @@
             extend: {
               colors: {
                 gold: '#C06912',
+                lightpurple: '##BF40BF',
                 purple: '#6C3C86',
                 darkpurple:'#5A2F71',
                 yellow: '#E6BA31',

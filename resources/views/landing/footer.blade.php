@@ -1,4 +1,4 @@
-<footer class="bg-purple pt-8 bottom-0">
+<footer class="bg-purple pt-8 bottom-0 w-screen">
 <div class="grid grid-cols-5 pb-8">
     <div class=""></div>
     <div class=""></div>

@@ -1,10 +1,13 @@
 @include('landing.head')
 <body>
     @include('landing.pages.navbar')
-    @include('landing.pages.hero')
-    @include('landing.pages.productlanding')
-    @include('landing.pages.monitorlanding')
-    @include('landing.pages.thankyou')
+    <div class="w-screen">
+        @include('landing.pages.hero')
+        @include('landing.pages.productlanding')
+        @include('landing.pages.monitorlanding')
+        @include('landing.pages.thankyou')
+    </div>
+    
     @include('landing.footer')
 
 

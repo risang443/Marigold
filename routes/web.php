@@ -22,3 +22,17 @@ Route::get('/partnership', function () {
     return view('landing.pages.partnerships');
 });
 
+Route::get('/shop', function () {
+    return view('landing.pages.shop');
+});
+Route::get('/shopoil', function () {
+    return view('landing.pages.shopoil');
+});
+
+Route::get('/shoptea', function () {
+    return view('landing.pages.shoptea');
+});
+
+Route::get('/shopflowers', function () {
+    return view('landing.pages.shopflowers');
+});
