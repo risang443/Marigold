@@ -3,115 +3,141 @@
     @include('landing.pages.navbar')
     <section class=" bg-white mt-6 mb-10 flex justify-center flex-wrap">
         <div class="grid grid-cols-4 gap-4">
-            <div class="flex p-5 size-64 items-end rounded-md bg-cover bg-[url('{{ asset('image/test1.jpg')}}')]">
-                <div class="flex flex-wrap w-full">
-                    <h1 class="font-['Poppins'] font-bold text-lg w-full text-darkpurple">Gold Oil</h1>
-                    <div class="flex justify-between item-center flex-grow">
-                        <p class="font-['Poppins'] font-semibold text-yellow text-base">$5.00</p>
-                        <a href="#" class="hover:text-yellow"><i class="fi fi-rr-square-plus text-2xl"></i></a>
-                    </div>
+            {{-- cards --}}
+            <div class="max-w-sm bg-white border border-gray-800 rounded-lg shadow ">
+                <a href="#">
+                    <img class="rounded-t-lg" src="{{ asset('image/test1.jpg') }}" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="/shopcontent" class="flex flex-wrap">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple w-full ">Gold Oil</h5>
+                        <div class="flex justify-between text-xl text-yellow items-center flex-grow">
+                            <p class="text-['Poppins'] font-bold text-yellow">$5000</p>
+                            <i class="fi fi-rr-square-plus "></i>
+                        </div>
+                    </a>
+                    
                 </div>
             </div>
+
+            {{-- cards --}}
+            <div class="max-w-sm bg-white border border-gray-800 rounded-lg shadow ">
+                <a href="#">
+                    <img class="rounded-t-lg" src="{{ asset('image/test1.jpg') }}" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="/shopcontent" class="flex flex-wrap">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple w-full ">Gold Oil</h5>
+                        <div class="flex justify-between text-xl text-yellow items-center flex-grow">
+                            <p class="text-['Poppins'] font-bold text-yellow">$5000</p>
+                            <i class="fi fi-rr-square-plus "></i>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+            {{-- cards --}}
+            <div class="max-w-sm bg-white border border-gray-800 rounded-lg shadow ">
+                <a href="#">
+                    <img class="rounded-t-lg" src="{{ asset('image/test1.jpg') }}" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="/shopcontent" class="flex flex-wrap">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple w-full ">Gold Oil</h5>
+                        <div class="flex justify-between text-xl text-yellow items-center flex-grow">
+                            <p class="text-['Poppins'] font-bold text-yellow">$5000</p>
+                            <i class="fi fi-rr-square-plus "></i>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+            {{-- cards --}}
+            <div class="max-w-sm bg-white border border-gray-800 rounded-lg shadow ">
+                <a href="#">
+                    <img class="rounded-t-lg" src="{{ asset('image/test1.jpg') }}" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="/shopcontent" class="flex flex-wrap">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple w-full ">Gold Oil</h5>
+                        <div class="flex justify-between text-xl text-yellow items-center flex-grow">
+                            <p class="text-['Poppins'] font-bold text-yellow">$5000</p>
+                            <i class="fi fi-rr-square-plus "></i>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+
+            {{-- cards --}}
+            <div class="max-w-sm bg-white border border-gray-800 rounded-lg shadow ">
+                <a href="#">
+                    <img class="rounded-t-lg" src="{{ asset('image/test1.jpg') }}" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="/shopcontent" class="flex flex-wrap">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple w-full ">Gold Oil</h5>
+                        <div class="flex justify-between text-xl text-yellow items-center flex-grow">
+                            <p class="text-['Poppins'] font-bold text-yellow">$5000</p>
+                            <i class="fi fi-rr-square-plus "></i>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+
+            {{-- cards --}}
+            <div class="max-w-sm bg-white border border-gray-800 rounded-lg shadow ">
+                <a href="#">
+                    <img class="rounded-t-lg" src="{{ asset('image/test1.jpg') }}" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="/shopcontent" class="flex flex-wrap">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple w-full ">Gold Oil</h5>
+                        <div class="flex justify-between text-xl text-yellow items-center flex-grow">
+                            <p class="text-['Poppins'] font-bold text-yellow">$5000</p>
+                            <i class="fi fi-rr-square-plus "></i>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+
+            {{-- cards --}}
+            <div class="max-w-sm bg-white border border-gray-800 rounded-lg shadow ">
+                <a href="#">
+                    <img class="rounded-t-lg" src="{{ asset('image/test1.jpg') }}" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="/shopcontent" class="flex flex-wrap">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple w-full ">Gold Oil</h5>
+                        <div class="flex justify-between text-xl text-yellow items-center flex-grow">
+                            <p class="text-['Poppins'] font-bold text-yellow">$5000</p>
+                            <i class="fi fi-rr-square-plus "></i>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+
+            {{-- cards --}}
+            <div class="max-w-sm bg-white border border-gray-800 rounded-lg shadow ">
+                <a href="#">
+                    <img class="rounded-t-lg" src="{{ asset('image/test1.jpg') }}" alt="" />
+                </a>
+                <div class="p-5">
+                    <a href="/shopcontent" class="flex flex-wrap">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-purple w-full ">Gold Oil</h5>
+                        <div class="flex justify-between text-xl text-yellow items-center flex-grow">
+                            <p class="text-['Poppins'] font-bold text-yellow">$5000</p>
+                            <i class="fi fi-rr-square-plus "></i>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+
             
-            <div class="flex p-5 size-64 items-end rounded-md bg-cover bg-[url('{{ asset('image/test1.jpg')}}')]">
-                <div class="flex flex-wrap w-full">
-                    <h1 class="font-['Poppins'] font-bold text-lg w-full text-darkpurple">Gold Oil</h1>
-                    <div class="flex justify-between item-center flex-grow">
-                        <p class="font-['Poppins'] font-semibold text-yellow text-base">$5.00</p>
-                        <a href="#" class="hover:text-yellow"><i class="fi fi-rr-square-plus text-2xl"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex p-5 size-64 items-end rounded-md bg-cover bg-[url('{{ asset('image/test1.jpg')}}')]">
-                <div class="flex flex-wrap w-full">
-                    <h1 class="font-['Poppins'] font-bold text-lg w-full text-darkpurple">Gold Oil</h1>
-                    <div class="flex justify-between item-center flex-grow">
-                        <p class="font-['Poppins'] font-semibold text-yellow text-base">$5.00</p>
-                        <a href="#" class="hover:text-yellow"><i class="fi fi-rr-square-plus text-2xl"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex p-5 size-64 items-end rounded-md bg-cover bg-[url('{{ asset('image/test1.jpg')}}')]">
-                <div class="flex flex-wrap w-full">
-                    <h1 class="font-['Poppins'] font-bold text-lg w-full text-darkpurple">Gold Oil</h1>
-                    <div class="flex justify-between item-center flex-grow">
-                        <p class="font-['Poppins'] font-semibold text-yellow text-base">$5.00</p>
-                        <a href="#" class="hover:text-yellow"><i class="fi fi-rr-square-plus text-2xl"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex p-5 size-64 items-end rounded-md bg-cover bg-[url('{{ asset('image/test1.jpg')}}')]">
-                <div class="flex flex-wrap w-full">
-                    <h1 class="font-['Poppins'] font-bold text-lg w-full text-darkpurple">Gold Oil</h1>
-                    <div class="flex justify-between item-center flex-grow">
-                        <p class="font-['Poppins'] font-semibold text-yellow text-base">$5.00</p>
-                        <a href="#" class="hover:text-yellow"><i class="fi fi-rr-square-plus text-2xl"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex p-5 size-64 items-end rounded-md bg-cover bg-[url('{{ asset('image/test1.jpg')}}')]">
-                <div class="flex flex-wrap w-full">
-                    <h1 class="font-['Poppins'] font-bold text-lg w-full text-darkpurple">Gold Oil</h1>
-                    <div class="flex justify-between item-center flex-grow">
-                        <p class="font-['Poppins'] font-semibold text-yellow text-base">$5.00</p>
-                        <a href="#" class="hover:text-yellow"><i class="fi fi-rr-square-plus text-2xl"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex p-5 size-64 items-end rounded-md bg-cover bg-[url('{{ asset('image/test1.jpg')}}')]">
-                <div class="flex flex-wrap w-full">
-                    <h1 class="font-['Poppins'] font-bold text-lg w-full text-darkpurple">Gold Oil</h1>
-                    <div class="flex justify-between item-center flex-grow">
-                        <p class="font-['Poppins'] font-semibold text-yellow text-base">$5.00</p>
-                        <a href="#" class="hover:text-yellow"><i class="fi fi-rr-square-plus text-2xl"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex p-5 size-64 items-end rounded-md bg-cover bg-[url('{{ asset('image/test1.jpg')}}')]">
-                <div class="flex flex-wrap w-full">
-                    <h1 class="font-['Poppins'] font-bold text-lg w-full text-darkpurple">Gold Oil</h1>
-                    <div class="flex justify-between item-center flex-grow">
-                        <p class="font-['Poppins'] font-semibold text-yellow text-base">$5.00</p>
-                        <a href="#" class="hover:text-yellow"><i class="fi fi-rr-square-plus text-2xl"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex p-5 size-64 items-end rounded-md bg-cover bg-[url('{{ asset('image/test1.jpg')}}')]">
-                <div class="flex flex-wrap w-full">
-                    <h1 class="font-['Poppins'] font-bold text-lg w-full text-darkpurple">Gold Oil</h1>
-                    <div class="flex justify-between item-center flex-grow">
-                        <p class="font-['Poppins'] font-semibold text-yellow text-base">$5.00</p>
-                        <a href="#" class="hover:text-yellow"><i class="fi fi-rr-square-plus text-2xl"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex p-5 size-64 items-end rounded-md bg-cover bg-[url('{{ asset('image/test1.jpg')}}')]">
-                <div class="flex flex-wrap w-full">
-                    <h1 class="font-['Poppins'] font-bold text-lg w-full text-darkpurple">Gold Oil</h1>
-                    <div class="flex justify-between item-center flex-grow">
-                        <p class="font-['Poppins'] font-semibold text-yellow text-base">$5.00</p>
-                        <a href="#" class="hover:text-yellow"><i class="fi fi-rr-square-plus text-2xl"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex p-5 size-64 items-end rounded-md bg-cover bg-[url('{{ asset('image/test1.jpg')}}')]">
-                <div class="flex flex-wrap w-full">
-                    <h1 class="font-['Poppins'] font-bold text-lg w-full text-darkpurple">Gold Oil</h1>
-                    <div class="flex justify-between item-center flex-grow">
-                        <p class="font-['Poppins'] font-semibold text-yellow text-base">$5.00</p>
-                        <a href="#" class="hover:text-yellow"><i class="fi fi-rr-square-plus text-2xl"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="flex p-5 size-64 items-end rounded-md bg-cover bg-[url('{{ asset('image/test1.jpg')}}')]">
-                <div class="flex flex-wrap w-full">
-                    <h1 class="font-['Poppins'] font-bold text-lg w-full text-darkpurple">Gold Oil</h1>
-                    <div class="flex justify-between item-center flex-grow">
-                        <p class="font-['Poppins'] font-semibold text-yellow text-base">$5.00</p>
-                        <a href="#" class="hover:text-yellow"><i class="fi fi-rr-square-plus text-2xl"></i></a>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 

@@ -36,3 +36,11 @@ Route::get('/shoptea', function () {
 Route::get('/shopflowers', function () {
     return view('landing.pages.shopflowers');
 });
+
+Route::get('/shopcontent', function () {
+    return view('landing.pages.shopcontent');
+});
+
+Route::get('/experience', function () {
+    return view('landing.pages.exp');
+});
