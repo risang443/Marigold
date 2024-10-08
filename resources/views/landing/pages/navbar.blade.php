@@ -20,16 +20,16 @@
                   <div id="dropdownNavbar1" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:divide-gray-600">
                       <ul class="py-2 text-sm text-gray-700 dark:text-black" aria-labelledby="dropdownLargeButton">
                         <li>
-                          <a href="/" class="block px-4 py-2 hover:text-blue-800 ">Supply</a>
+                          <a href="/supply" class="block px-4 py-2 hover:text-blue-800 ">Supply</a>
                         </li>
                         <li>
-                          <a href="/" class="block px-4 py-2 hover:text-blue-800 ">Demand</a>
+                          <a href="/demand" class="block px-4 py-2 hover:text-blue-800 ">Demand</a>
                         </li>
                         <li>
-                          <a href="/" class="block px-4 py-2 hover:text-blue-800 ">Contact Farming</a>
+                          <a href="/contactfarming" class="block px-4 py-2 hover:text-blue-800 ">Contact Farming</a>
                         </li>
                         <li>
-                          <a href="/" class="block px-4 py-2 hover:text-blue-800 ">Investment</a>
+                          <a href="/investment" class="block px-4 py-2 hover:text-blue-800 ">Investment</a>
                         </li>
                       </ul>
                   </div>

@@ -44,3 +44,21 @@ Route::get('/shopcontent', function () {
 Route::get('/experience', function () {
     return view('landing.pages.exp');
 });
+
+Route::get('/supply', function () {
+    return view('landing.pages.supply');
+});
+
+Route::get('/demand', function () {
+    return view('landing.pages.demand');
+});
+
+Route::get('/contactfarming', function () {
+    return view('landing.pages.contactfarming');
+});
+
+Route::get('/investment', function () {
+    return view('landing.pages.investment');
+});
+
+
