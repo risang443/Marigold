@@ -61,7 +61,7 @@
               <div id="dropdownNavbar3" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:divide-gray-600">
                   <ul class="py-2 text-sm text-gray-700 dark:text-black" aria-labelledby="dropdownLargeButton">
                     <li>
-                      <a href="/" class="block px-4 py-2 hover:text-blue-800 ">Marigold Farm & Fields</a>
+                      <a href="/contact" class="block px-4 py-2 hover:text-blue-800 ">Marigold Farm & Fields</a>
                     </li>
                     <li>
                       <a href="/" class="block px-4 py-2 hover:text-blue-800 ">Gift Shop</a>

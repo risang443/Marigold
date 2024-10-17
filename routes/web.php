@@ -61,4 +61,7 @@ Route::get('/investment', function () {
     return view('landing.pages.investment');
 });
 
+Route::get('/contact', function () {
+    return view('landing.pages.contact');
+});
 
