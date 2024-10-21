@@ -64,7 +64,7 @@
                       <a href="/farmfields" class="block px-4 py-2 hover:text-blue-800 ">Marigold Farm & Fields</a>
                     </li>
                     <li>
-                      <a href="/" class="block px-4 py-2 hover:text-blue-800 ">Gift Shop</a>
+                      <a href="/giftshop" class="block px-4 py-2 hover:text-blue-800 ">Gift Shop</a>
                     </li>
                   </ul>
               </div>
