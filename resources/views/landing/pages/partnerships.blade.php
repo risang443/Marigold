@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <a href="#" class="inline-flex items-center justify-center px-12 py-3 text-base font-medium text-center bg-yellow text-gray-900 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                    Shop Now
+                    Next
                 </a> 
             </div>
             
