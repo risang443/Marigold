@@ -69,3 +69,6 @@ Route::get('/contact', function () {
     return view('landing.pages.contact');
 });
 
+Route::get('/giftshop', function () {
+    return view('landing.pages.giftshop');
+});
