@@ -8,7 +8,7 @@
             {{-- Card 1 --}}
             <div class="">
                 <div class="justify-center flex">
-                    <img class="rounded-lg justify-center size-96" src="{{ asset('image/placehoder.jpg') }}" alt="pro1">
+                    <img class="rounded-lg justify-center size-96" src="{{ asset('image/test1.jpg') }}" alt="pro1">
                 </div>
                 <div class="p-4">
                     <p class="text-lg text-white tracking-tight leading-loose font-['Poppins']">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quas consectetur, adipisci eius enim nam tempore aliquam, a necessitatibus maiores numquam. Amet possimus iste aliquid, ex a deserunt minus eligendi?
@@ -19,7 +19,7 @@
             {{-- Card 1 --}}
             <div class="">
                 <div class="justify-center flex">
-                    <img class="rounded-lg justify-center size-96" src="{{ asset('image/placehoder.jpg') }}" alt="pro1">
+                    <img class="rounded-lg justify-center size-96" src="{{ asset('image/test2.jpg') }}" alt="pro1">
                 </div>
                 <div class="p-4">
                     <p class="text-lg text-white tracking-tight leading-loose font-['Poppins']">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quas consectetur, adipisci eius enim nam tempore aliquam, a necessitatibus maiores numquam. Amet possimus iste aliquid, ex a deserunt minus eligendi?
@@ -30,7 +30,7 @@
             {{-- Card 1 --}}
             <div class="">
                 <div class="justify-center flex">
-                    <img class="rounded-lg justify-center size-96" src="{{ asset('image/placehoder.jpg') }}" alt="pro1">
+                    <img class="rounded-lg justify-center size-96" src="{{ asset('image/test3.jpg') }}" alt="pro1">
                 </div>
                 <div class="p-4">
                     <p class="text-lg text-white tracking-tight leading-loose font-['Poppins']">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quas consectetur, adipisci eius enim nam tempore aliquam, a necessitatibus maiores numquam. Amet possimus iste aliquid, ex a deserunt minus eligendi?

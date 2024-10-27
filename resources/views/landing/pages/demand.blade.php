@@ -2,7 +2,7 @@
 <body>
     @include('landing.pages.navbar')
         <section class="mt-5 mx-8 px-3 mb-4">
-            <h1 class="mt-8 p-2 text-purple font-['Poppins'] text-4xl text-center font-bold">Offering Form</h1>
+            <h1 class="mt-8 p-2 text-purple font-['Poppins'] text-4xl text-center font-bold">Demand</h1>
             <div class="mt-6 p-4 flex justify-center items-center">
                 <div class="grid grid-cols-3 gap-4">
                     {{-- cards --}}

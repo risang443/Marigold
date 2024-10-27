@@ -72,3 +72,11 @@ Route::get('/contact', function () {
 Route::get('/giftshop', function () {
     return view('landing.pages.giftshop');
 });
+
+Route::get('/gallery', function () {
+    return view('landing.pages.gallery');
+});
+
+Route::get('/faq', function () {
+    return view('landing.pages.faq');
+});

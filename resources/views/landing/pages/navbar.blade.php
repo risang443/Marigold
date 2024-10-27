@@ -73,10 +73,10 @@
             <a href="/about" class="block py-2 px-3 text-lg text-gray-900 rounded hover:text-blue-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">About Us</a>
           </li>
           <li>
-            <a href="/" class="block py-2 px-3 text-lg text-gray-900 rounded hover:text-blue-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">Gallery</a>
+            <a href="/gallery" class="block py-2 px-3 text-lg text-gray-900 rounded hover:text-blue-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">Gallery</a>
           </li>
           <li>
-            <a href="/" class="block py-2 px-3 text-lg text-gray-900 rounded hover:text-blue-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">FAQ</a>
+            <a href="/faq" class="block py-2 px-3 text-lg text-gray-900 rounded hover:text-blue-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">FAQ</a>
           </li>
           <li>
             <a href="/contact" class="block py-2 px-3 text-lg text-gray-900 rounded hover:text-blue-800 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-black md:dark:hover:bg-transparent">Contact</a>
