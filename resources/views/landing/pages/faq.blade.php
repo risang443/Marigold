@@ -19,7 +19,7 @@
                             </span>
                     </summary>
                     <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae repudiandae dolore aliquam at esse debitis repellat ducimus nobis assumenda soluta!
+                        UG Marigold Laris is a unique place dedicated to celebrating the natural wellness and beauty of marigold flowers. Here, visitors can explore a range of marigold-inspired products crafted with care, from essential oils and soothing teas to vibrant dried flower collections. Committed to eco-friendly practices, UG Marigold Laris invites you to experience the calming, revitalizing essence of marigolds in a serene, sustainable environment that prioritizes both quality and nature. Discover the holistic benefits of marigolds at UG Marigold Laris—a haven for natural wellness and environmental care.
                     </p>
                 </details>
             </div>
@@ -36,7 +36,7 @@
                             </span>
                     </summary>
                     <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto animi eveniet, molestiae quis atque labore cumque optio deleniti eum reiciendis, ipsum quia eius in iste non aliquid quo quibusdam repellendus?
+                        At UG Marigold Laris, we offer a range of high-quality, marigold-based products designed to enhance wellness and embrace nature. Our Marigold Essential Oil is a pure, antioxidant-rich oil perfect for skincare, aromatherapy, and relaxation. We also provide a Dried Marigold Flower Collection, featuring handpicked, vibrant blooms ideal for crafts, natural décor, and homemade remedies. For a soothing beverage, try our Marigold Petal Tea—a caffeine-free infusion crafted from premium marigold petals that supports relaxation and digestive wellness. Discover the natural benefits of marigolds with our eco-friendly, quality-focused offerings.
                     </p>
                 </details>
             </div>
@@ -70,7 +70,7 @@
                             </span>
                     </summary>
                     <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod nostrum hic nulla beatae dolor accusantium ab impedit maxime commodi.
+                        Yes, UG Marigold Laris offers expert consultation on marigold planting! Our team is passionate about sharing knowledge on sustainable cultivation practices, from selecting the right soil and seeds to proper planting techniques for vibrant blooms. Whether you're a beginner or an experienced grower, our personalized guidance will help you cultivate healthy, thriving marigolds for essential oils, teas, or ornamental use. Let us support you on your journey to successful marigold planting!
                     </p>
                 </details>
             </div>
@@ -87,7 +87,7 @@
                             </span>
                     </summary>
                     <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fuga totam quas inventore error. Nemo eaque suscipit, modi, placeat delectus repellendus dolor, velit eos beatae architecto facilis. Fugit, dolore quibusdam? Aliquam error ullam quam quo.
+                        Yes, UG Marigold Laris proudly supports eco-friendly practices throughout our entire production process. From sourcing marigold flowers grown in sustainable, pesticide-free farms to using biodegradable packaging, we are dedicated to reducing our environmental impact. We believe in delivering pure, high-quality products that not only benefit you but also support a healthier planet. With UG Marigold Laris, you can enjoy natural wellness while contributing to a more sustainable future.
                     </p>
                 </details>
             </div>
