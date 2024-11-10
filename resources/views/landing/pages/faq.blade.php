@@ -18,10 +18,8 @@
                                 </svg>
                             </span>
                     </summary>
-                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">Springerdata offers a variety of
-                        billing options, including monthly and annual subscription plans, as well as pay-as-you-go
-                        pricing for certain services. Payment is typically made through a credit card or other
-                        secure online payment method.
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae repudiandae dolore aliquam at esse debitis repellat ducimus nobis assumenda soluta!
                     </p>
                 </details>
             </div>
@@ -37,11 +35,8 @@
                                 </svg>
                             </span>
                     </summary>
-                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We offer a 30-day money-back
-                        guarantee for most of its subscription plans. If you are not satisfied with your
-                        subscription within the first 30 days, you can request a full refund. Refunds for
-                        subscriptions that have been active for longer than 30 days may be considered on a
-                        case-by-case basis.
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto animi eveniet, molestiae quis atque labore cumque optio deleniti eum reiciendis, ipsum quia eius in iste non aliquid quo quibusdam repellendus?
                     </p>
                 </details>
             </div>
@@ -57,9 +52,8 @@
                                 </svg>
                             </span>
                     </summary>
-                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">To cancel your subscription, you can
-                        log in to your account and navigate to the subscription management page. From there, you
-                        should be able to cancel your subscription and stop future billing.
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, nemo sit. Vel repudiandae aliquid eum voluptatum blanditiis minus ducimus nobis.
                     </p>
                 </details>
             </div>
@@ -75,9 +69,8 @@
                                 </svg>
                             </span>
                     </summary>
-                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">We offer a free trial of our software
-                        for a limited time. During the trial period, you will have access to a limited set of
-                        features and functionality, but you will not be charged.
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quod nostrum hic nulla beatae dolor accusantium ab impedit maxime commodi.
                     </p>
                 </details>
             </div>
@@ -93,9 +86,8 @@
                                 </svg>
                             </span>
                     </summary>
-                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">If you need help with our platform or
-                        have any other questions, you can contact the company's support team by submitting a support
-                        request through the website or by emailing support@ourwebsite.com.
+                    <p class="group-open:animate-fadeIn mt-3 text-neutral-600">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos fuga totam quas inventore error. Nemo eaque suscipit, modi, placeat delectus repellendus dolor, velit eos beatae architecto facilis. Fugit, dolore quibusdam? Aliquam error ullam quam quo.
                     </p>
                 </details>
             </div>

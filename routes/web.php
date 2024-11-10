@@ -1,82 +1,25 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('landing.landing');
-});
-
-Route::get('/about', function () {
-    return view('landing.pages.about');
-});
-
-Route::get('/plantmonitoring', function () {
-    return view('landing.pages.plantmonitor');
-});
-
-Route::get('/weathermonitoring', function () {
-    return view('landing.pages.weathermonitor');
-});
-
-Route::get('/partnership', function () {
-    return view('landing.pages.partnerships');
-});
-
-Route::get('/shop', function () {
-    return view('landing.pages.shop');
-});
-Route::get('/shopoil', function () {
-    return view('landing.pages.shopoil');
-});
-
-Route::get('/shoptea', function () {
-    return view('landing.pages.shoptea');
-});
-
-Route::get('/shopflowers', function () {
-    return view('landing.pages.shopflowers');
-});
-
-Route::get('/shopcontent', function () {
-    return view('landing.pages.shopcontent');
-});
-
-Route::get('/experience', function () {
-    return view('landing.pages.exp');
-});
-
-Route::get('/supply', function () {
-    return view('landing.pages.supply');
-});
-
-Route::get('/demand', function () {
-    return view('landing.pages.demand');
-});
-
-Route::get('/contactfarming', function () {
-    return view('landing.pages.contactfarming');
-});
-
-Route::get('/investment', function () {
-    return view('landing.pages.investment');
-});
-
-Route::get('/farmfields', function () {
-    return view('landing.pages.farmfields');
-});
-
-Route::get('/contact', function () {
-    return view('landing.pages.contact');
-});
-
-Route::get('/giftshop', function () {
-    return view('landing.pages.giftshop');
-});
-
-Route::get('/gallery', function () {
-    return view('landing.pages.gallery');
-});
-
-Route::get('/faq', function () {
-    return view('landing.pages.faq');
-});
+Route::get('/', [PageController::class, 'landing']);
+Route::get('/about', [PageController::class, 'about']);
+Route::get('/plantmonitoring', [PageController::class, 'plantMonitoring']);
+Route::get('/weathermonitoring', [PageController::class, 'weatherMonitoring']);
+Route::get('/partnership', [PageController::class, 'partnership']);
+Route::get('/shop', [PageController::class, 'shop']);
+Route::get('/shopoil', [PageController::class, 'shopOil']);
+Route::get('/shoptea', [PageController::class, 'shopTea']);
+Route::get('/shopflowers', [PageController::class, 'shopFlowers']);
+Route::get('/shopcontent', [PageController::class, 'shopContent']);
+Route::get('/experience', [PageController::class, 'experience']);
+Route::get('/supply', [PageController::class, 'supply']);
+Route::get('/demand', [PageController::class, 'demand']);
+Route::get('/contactfarming', [PageController::class, 'contactFarming']);
+Route::get('/investment', [PageController::class, 'investment']);
+Route::get('/farmfields', [PageController::class, 'farmFields']);
+Route::get('/contact', [PageController::class, 'contact']);
+Route::get('/giftshop', [PageController::class, 'giftShop']);
+Route::get('/gallery', [PageController::class, 'gallery']);
+Route::get('/faq', [PageController::class, 'faq']);
