@@ -1,6 +1,10 @@
 <footer class="bg-purple pt-8 bottom-0 w-screen">
 <div class="grid grid-cols-5 pb-8">
     <div class="ml-4">
+        
+        
+    </div>
+    <div class="">
         <h1 class="text-white text-lg font-semibold font-['Poppins']">Sosial Media</h1>
         <ul class="text-white text-sm font-semibold font-['Poppins']">
             <li>
@@ -9,9 +13,7 @@
                 </a>
             </li>
         </ul>
-        
     </div>
-    <div class=""></div>
     <div class="">
         <h1 class="text-white text-lg font-semibold font-['Poppins']">Contact Us</h1>
     </div>
