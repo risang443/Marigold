@@ -1,6 +1,6 @@
 <footer class="bg-purple pt-8 bottom-0 w-screen">
 <div class="grid grid-cols-5 pb-8">
-    <div class="mb-4">
+    <div class="ml-4">
         <h1 class="text-white text-lg font-semibold font-['Poppins']">Sosial Media</h1>
         <ul class="text-white text-sm font-semibold font-['Poppins']">
             <li>
