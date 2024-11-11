@@ -1,14 +1,14 @@
 <section class="bg-purple mt-8">
-    <div class="max-w-screen-xl px-4 py-10 mx-auto">
+    <div class="max-w-screen-2xl px-4 py-10 mx-auto">
         <div class="flex justify-between items-center">
             <h1 class="text-5xl tracking-tight leading-none font-['Poppins'] font-bold text-white">Product</h1>
              <a href="#" class="text-md tracking-tight leading-none font-['Poppins'] text-white hover:underline">View all product</a>
         </div>
-        <div class="mt-8 grid grid-cols-3 ">
+        <div class="mt-8 grid grid-cols-3 gap-10 ">
             {{-- Card 1 --}}
             <div class="">
                 <div class="justify-center flex">
-                    <img class="rounded-lg justify-center size-96" src="{{ asset('image/test1.jpg') }}" alt="pro1">
+                    <img class="rounded-lg justify-center size-96 object-cover" src="{{ asset('image/test1.jpg') }}" alt="pro1">
                 </div>
                 <div class="p-4">
                     <h1 class="text-lg text-white font-bold tracking-tight leading-loose font-['Poppins']">Marigold Essential Oil: Pure, Natural Wellness</h1>
@@ -21,7 +21,7 @@
             {{-- Card 1 --}}
             <div class="">
                 <div class="justify-center flex">
-                    <img class="rounded-lg justify-center size-96" src="{{ asset('image/test2.jpg') }}" alt="pro1">
+                    <img class="rounded-lg justify-center size-96 object-cover" src="{{ asset('image/test2.jpg') }}" alt="pro1">
                 </div>
                 <div class="p-4">
                     <h1 class="text-lg text-white font-bold tracking-tight leading-loose font-['Poppins']">Marigold Flower Collection: Vibrant, Freshly Harvested Blooms</h1>
@@ -34,7 +34,7 @@
             {{-- Card 1 --}}
             <div class="">
                 <div class="justify-center flex">
-                    <img class="rounded-lg justify-center size-96" src="{{ asset('image/test3.jpg') }}" alt="pro1">
+                    <img class="rounded-lg justify-center size-96 object-cover" src="{{ asset('image/test3.jpg') }}" alt="pro1">
                 </div>
                 <div class="p-4">
                     <h1 class="text-lg text-white font-bold tracking-tight leading-loose font-['Poppins']">Marigold Petal Tea: Soothing, Floral Infusion</h1>
