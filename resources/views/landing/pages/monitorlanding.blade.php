@@ -1,5 +1,5 @@
 <section class="bg-white mt-8">
-    <div class="max-w-screen-xl px-4 py-10 mx-auto">
+    <div class="max-w-screen-2xl px-4 py-10 mx-auto">
         <div class="mb-10">
             <h1 class="text-5xl tracking-tight leading-none font-['Poppins'] font-bold text-purple mb-10">UG Smart Farm Monitoring</h1>
         </div>

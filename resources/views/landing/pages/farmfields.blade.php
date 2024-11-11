@@ -10,7 +10,7 @@
         <div class="grid grid-cols-2 gap-y-8">
             <div class="flex justify-center ">
                 <div class="flex w-auto my-8">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15848.257425769529!2d107.2098441!3d-6.7620076!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69abdef8752ecf%3A0xa2fd3c4aaa1a61d2!2sUG%20Techno%20Park!5e0!3m2!1sid!2sid!4v1729992728112!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15848.257425769529!2d107.2098441!3d-6.7620076!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69abdef8752ecf%3A0xa2fd3c4aaa1a61d2!2sUG%20Techno%20Park!5e0!3m2!1sid!2sid!4v1729992728112!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="rounded-md"></iframe>
                 </div>
             </div>
             <div class="block mx-9 my-5">
@@ -30,7 +30,7 @@
             </div>
             <div class="flex justify-center my-8 ">
                 <div class="flex w-auto">
-                    <img src="{{ asset('image/visit.jpeg') }}" alt="" class="size-96">
+                    <img src="{{ asset('image/visit.jpeg') }}" alt="" class="size-96 rounded-md object-fill ">
                 </div>
             </div>
             
@@ -42,7 +42,7 @@
             </div>
             <div class="flex justify-center my-8 ">
                 <div class="flex w-auto">
-                    <img src="{{ asset('image/visit.png') }}" alt="" class="size-96">
+                    <img src="{{ asset('image/visit.png') }}" alt="" class="size-96 rounded-md object-fill">
                 </div>
             </div>
             

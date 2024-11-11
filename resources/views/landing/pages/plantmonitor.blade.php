@@ -6,7 +6,7 @@
     <h1 class="m-1 p-2 text-purple font-['Poppins'] text-3xl text-center font-semibold">Plant Monitoring</h1>
 
     <section class="mt-5 mx-8 px-3 mb-4">
-        <div class="grid grid-cols-3 justify-evenly gap-4">
+        <div class="grid grid-cols-3 justify-evenly gap-8">
             <div class="border-2 border-black flex justify-center flex-wrap">
                 <h1 class="text-black font-['Poppins'] text-2xl text-center font-bold">Kadar pH Tanah</h1>
                 <iframe width="450" height="260"  #cccccc;" src="https://thingspeak.com/channels/2629109/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
