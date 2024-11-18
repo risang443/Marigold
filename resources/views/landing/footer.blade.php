@@ -3,7 +3,7 @@
       <!-- Grid for Footer Sections -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 pb-8">
         <!-- Placeholder Section -->
-        <div class="ml-4">
+        <div class="ml-4 hidden md:flex">
           <!-- Optionally add content here -->
         </div>
   
