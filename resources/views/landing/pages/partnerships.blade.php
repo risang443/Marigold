@@ -6,67 +6,51 @@
     <section class="bg-white mt-6 mb-10">
         <div class="max-w-screen-xl px-4 py-6 mx-auto">
             <div class="flex flex-wrap justify-center">
-                <div class="w-screen">
+                <div class="w-full">
                     <h1 class="mt-8 p-2 text-purple font-['Poppins'] text-4xl text-center font-bold">Partner Ship</h1>
                 </div>
-                <div class="grid grid-cols-3 mt-5 gap-5 mb-6 w-screen">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-5 gap-5 mb-6 w-full">
                     <div class="flex justify-center flex-wrap">
-                        <img class="size-80" src="{{ asset('image/partner1.png') }}" alt="images">
+                        <img class="w-full h-auto object-contain" src="{{ asset('image/partner1.png') }}" alt="partner1">
                     </div>
                     <div class="flex justify-center flex-wrap">
-                        <img class="size-80" src="{{ asset('image/partner2.png') }}" alt="images">
+                        <img class="w-full h-auto object-contain" src="{{ asset('image/partner2.png') }}" alt="partner2">
                     </div>
                     <div class="flex justify-center flex-wrap">
-                        <img class="size-80" src="{{ asset('image/partner3.png') }}" alt="images">
+                        <img class="w-full h-auto object-contain" src="{{ asset('image/partner3.png') }}" alt="partner3">
                     </div>
                 </div>
-                {{-- <a href="#" class="inline-flex items-center justify-center px-12 py-3 text-base font-medium text-center bg-yellow text-gray-900 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                    Next
-                </a>  --}}
             </div>
             
             <div class="flex flex-wrap justify-center">
-                <div class="w-screen mb-10">
+                <div class="w-full mb-10">
                     <h1 class="mt-10 p-2 text-purple font-['Poppins'] text-4xl text-center font-bold">Our Partners</h1>
                     <p class="text-purple font-['Poppins'] text-xl text-center font-light">Below is a list of programs that we have carried out with partners.</p>
                 </div>
-                <div class="grid grid-cols-3 mt-5 gap-10 mb-6 w-screen">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-5 gap-10 mb-6 w-full">
                     <div class="flex justify-center flex-wrap">
-                        <img class="size-80 object-scale-down" src="{{ asset('image/partner5.png') }}" alt="images">
-                        {{-- <h1 class="w-full text-purple font-['Poppins'] text-xl text-center font-bold">Lorem.</h1>
-                        <p class="text-purple font-['Poppins'] text-xl text-center font-light">Lorem ipsum dolor sit.</p> --}}
+                        <img class="w-full h-auto object-scale-down" src="{{ asset('image/partner5.png') }}" alt="partner5">
                     </div>
                     <div class="flex justify-center flex-wrap">
-                        <img class="size-80 object-scale-down" src="{{ asset('image/padanan.png') }}" alt="images">
-                        {{-- <h1 class="w-full text-purple font-['Poppins'] text-xl text-center font-bold">Lorem.</h1>
-                        <p class="text-purple font-['Poppins'] text-xl text-center font-light">Lorem ipsum dolor sit.</p> --}}
+                        <img class="w-full h-auto object-scale-down" src="{{ asset('image/padanan.png') }}" alt="padanan">
                     </div>
                     <div class="flex justify-center flex-wrap">
-                        <img class="h-80 w-auto object-scale-down" src="{{ asset('image/partner6.png') }}" alt="images">
-                        {{-- <h1 class="w-full text-purple font-['Poppins'] text-xl text-center font-bold">Lorem.</h1>
-                        <p class="text-purple font-['Poppins'] text-xl text-center font-light">Lorem ipsum dolor sit.</p> --}}
+                        <img class="w-full h-auto object-scale-down" src="{{ asset('image/partner6.png') }}" alt="partner6">
                     </div>
                     <div class="flex justify-center flex-wrap">
-                        <img class="size-80 object-scale-down" src="{{ asset('image/tutwuri.jpg') }}" alt="images">
-                        {{-- <h1 class="w-full text-purple font-['Poppins'] text-xl text-center font-bold">Lorem.</h1>
-                        <p class="text-purple font-['Poppins'] text-xl text-center font-light">Lorem ipsum dolor sit.</p> --}}
+                        <img class="w-full h-auto object-scale-down" src="{{ asset('image/tutwuri.jpg') }}" alt="tutwuri">
                     </div>
                     <div class="flex justify-center flex-wrap">
-                        <img class="size-80 object-scale-down" src="{{ asset('image/kedaireka.png') }}" alt="images">
-                        {{-- <h1 class="w-full text-purple font-['Poppins'] text-xl text-center font-bold">Lorem.</h1>
-                        <p class="text-purple font-['Poppins'] text-xl text-center font-light">Lorem ipsum dolor sit.</p> --}}
+                        <img class="w-full h-auto object-scale-down" src="{{ asset('image/kedaireka.png') }}" alt="kedaireka">
                     </div>
                     <div class="flex justify-center flex-wrap">
-                        <img class="h-80 w-auto object-scale-down" src="{{ asset('image/vokasi.png') }}" alt="images">
-                        {{-- <h1 class="w-full text-purple font-['Poppins'] text-xl text-center font-bold">Lorem.</h1>
-                        <p class="text-purple font-['Poppins'] text-xl text-center font-light">Lorem ipsum dolor sit.</p> --}}
+                        <img class="w-full h-auto object-scale-down" src="{{ asset('image/vokasi.png') }}" alt="vokasi">
                     </div>
                 </div>
             </div>
             
-            
         </div>
     </section>
-    @include('landing.footer')
 
+    @include('landing.footer')
 </body>
