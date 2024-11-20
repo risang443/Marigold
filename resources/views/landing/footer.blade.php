@@ -8,16 +8,16 @@
           <div class="flex justify-start flex-wrap gap-5">
             <img class="w-full h-auto object-contain" src="{{ asset('image/logomari.png') }}" alt="Marigolds Logo">
             <div class="flex flex-row gap-6 text-white text-2xl">
-              <i class="fi fi-brands-instagram"></i>
-              <i class="fi fi-brands-facebook"></i>
-              <i class="fi fi-brands-whatsapp"></i>
-              <i class="fi fi-brands-twitter-alt-circle"></i>
+              <a href="https://www.instagram.com/ug_marigold/profilecard/?igsh=cGNoc3htMG00Zzhp"><i class="fi fi-brands-instagram hover:text-yellow"></i></a>
+              <a href="https://www.instagram.com/ug_marigold/profilecard/?igsh=cGNoc3htMG00Zzhp"><i class="fi fi-brands-facebook hover:text-yellow"></i></a>
+              <a href="https://www.instagram.com/ug_marigold/profilecard/?igsh=cGNoc3htMG00Zzhp"><i class="fi fi-brands-whatsapp hover:text-yellow"></i></a>
+              <a href="https://www.instagram.com/ug_marigold/profilecard/?igsh=cGNoc3htMG00Zzhp"><i class="fi fi-brands-twitter-alt-circle hover:text-yellow"></i></a>
           </div>
         </div>
         </div>
   
         <!-- Social Media Section -->
-        <div>
+        {{-- <div>
           <h1 class="text-white text-lg font-semibold font-['Poppins']">Social Media</h1>
           <ul class="text-white text-sm font-semibold font-['Poppins']">
             <div class="flex flex-col gap-2 mt-3">
@@ -34,7 +34,7 @@
                 </li>
             </div>
           </ul>
-        </div>
+        </div> --}}
   
         <!-- Product Section -->
         <div>
