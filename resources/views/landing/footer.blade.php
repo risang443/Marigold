@@ -3,7 +3,7 @@
       <!-- Grid for Footer Sections -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 pb-8">
         <!-- Placeholder Section -->
-        <div class="ml-4 hidden md:flex">
+        <div class="ml-4 md:flex">
           <!-- Optionally add content here -->
           <div class="flex justify-start flex-wrap gap-5">
             <img class="w-full h-auto object-contain" src="{{ asset('image/logomari.png') }}" alt="Marigolds Logo">
@@ -15,7 +15,9 @@
           </div>
         </div>
         </div>
-  
+        <div class="">
+
+        </div>
         <!-- Social Media Section -->
         {{-- <div>
           <h1 class="text-white text-lg font-semibold font-['Poppins']">Social Media</h1>
