@@ -5,6 +5,15 @@
         <!-- Placeholder Section -->
         <div class="ml-4 hidden md:flex">
           <!-- Optionally add content here -->
+          <div class="flex justify-start flex-wrap gap-5">
+            <img class="w-full h-auto object-contain" src="{{ asset('image/logomari.png') }}" alt="Marigolds Logo">
+            <div class="flex flex-row gap-6 text-white text-2xl">
+              <i class="fi fi-brands-instagram"></i>
+              <i class="fi fi-brands-facebook"></i>
+              <i class="fi fi-brands-whatsapp"></i>
+              <i class="fi fi-brands-twitter-alt-circle"></i>
+          </div>
+        </div>
         </div>
   
         <!-- Social Media Section -->
@@ -67,8 +76,6 @@
                         <li><a class="hover:underline" href="">Jl. Margonda Raya Pondok Cina, Depok Phone : 7863819, 7520981,7863788</a></li>
                     </div>
                 </div>
-                
-                
                 
             </ul>
             </div>
