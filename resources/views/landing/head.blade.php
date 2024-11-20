@@ -26,6 +26,7 @@
                 purple: '#6C3C86',
                 darkpurple:'#5A2F71',
                 yellow: '#E6BA31',
+                grey: '#F3F3F3',
               }
             }
           }
