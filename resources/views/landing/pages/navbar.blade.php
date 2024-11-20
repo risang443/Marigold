@@ -150,7 +150,7 @@
       <li><a href="/faq" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">FAQ</a></li>
       <li><a href="/contact" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Contact</a></li>
       <li><a href="/" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Shopping Cart</a></li>
-      <li><a href="/" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Login</a></li>
+      <li><a href="/login" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Login</a></li>
     </ul>
   </div>
 </nav>

@@ -105,4 +105,9 @@ class PageController extends Controller
     {
         return view('landing.pages.faq');
     }
+
+    public function login()
+    {
+        return view('landing.pages.login');
+    }
 }

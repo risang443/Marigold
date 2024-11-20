@@ -2,6 +2,10 @@
 
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\RegisterController;
+
 
 Route::get('/', [PageController::class, 'landing']);
 Route::get('/about', [PageController::class, 'about']);
@@ -23,3 +27,4 @@ Route::get('/contact', [PageController::class, 'contact']);
 Route::get('/giftshop', [PageController::class, 'giftShop']);
 Route::get('/gallery', [PageController::class, 'gallery']);
 Route::get('/faq', [PageController::class, 'faq']);
+
