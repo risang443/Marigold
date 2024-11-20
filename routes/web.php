@@ -27,4 +27,5 @@ Route::get('/contact', [PageController::class, 'contact']);
 Route::get('/giftshop', [PageController::class, 'giftShop']);
 Route::get('/gallery', [PageController::class, 'gallery']);
 Route::get('/faq', [PageController::class, 'faq']);
+Route::get('/cart',[PageController::class,'cart']);
 

@@ -80,7 +80,7 @@
         <li><a href="/gallery" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Gallery</a></li>
         <li><a href="/faq" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">FAQ</a></li>
         <li><a href="/contact" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Contact</a></li>
-        <li><a href="/" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Shopping Cart</a></li>
+        <li><a href="/cart" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Shopping Cart</a></li>
         <li><a href="/" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Login</a></li>
       </ul>
     </div>

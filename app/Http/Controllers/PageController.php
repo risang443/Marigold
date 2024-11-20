@@ -105,6 +105,12 @@ class PageController extends Controller
     {
         return view('landing.pages.faq');
     }
+    public function cart()
+    {
+        return view('landing.pages.cart');
+    }
+
+
 
     public function login()
     {
