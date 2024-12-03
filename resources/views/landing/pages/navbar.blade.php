@@ -81,7 +81,24 @@
         <li><a href="/faq" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">FAQ</a></li>
         <li><a href="/contact" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Contact</a></li>
         <li><a href="/cart" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Shopping Cart</a></li>
-        <li><a href="/" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Login</a></li>
+        @auth
+        <!-- Jika Sudah Login -->
+        <li>
+          <form action="{{ route('logout') }}" method="POST" class="inline">
+            @csrf
+            <button type="submit" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">
+              Logout
+            </button>
+          </form>
+        </li>
+        <!-- Opsional: Tampilkan Nama Pengguna -->
+        <li>
+          <span class="block py-2 px-3 text-md text-gray-900">Hi, {{ Auth::user()->username }}</span>
+        </li>
+      @else
+        <!-- Jika Belum Login -->
+        <li><a href="/login" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Login</a></li>
+      @endauth
       </ul>
     </div>
   </div>
@@ -149,8 +166,19 @@
       <li><a href="/gallery" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Gallery</a></li>
       <li><a href="/faq" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">FAQ</a></li>
       <li><a href="/contact" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Contact</a></li>
-      <li><a href="/" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Shopping Cart</a></li>
-      <li><a href="/login" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Login</a></li>
+      <li><a href="/cart" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Shopping Cart</a></li>
+      @auth
+      <li>
+        <form action="{{ route('logout') }}" method="POST" class="inline">
+          @csrf
+          <button type="submit" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">
+            Logout
+          </button>
+        </form>
+      </li>
+    @else
+      <li><a href="/login" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Login</a></li>
+    @endauth
     </ul>
   </div>
 </nav>

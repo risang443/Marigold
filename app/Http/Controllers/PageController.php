@@ -11,6 +11,11 @@ class PageController extends Controller
         return view('landing.landing');
     }
 
+    public function dashboard()
+    {
+        return view('landing.landing');
+    }
+
     public function about()
     {
         return view('landing.pages.about');
@@ -110,10 +115,4 @@ class PageController extends Controller
         return view('landing.pages.cart');
     }
 
-
-
-    public function login()
-    {
-        return view('landing.pages.login');
-    }
 }
