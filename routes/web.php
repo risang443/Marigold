@@ -33,12 +33,12 @@ Route::post('/register', [AuthController::class, 'register']);
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout')->middleware('auth');
 
 
-Route::middleware(['auth'])->group(function () {
+// Route::middleware(['auth'])->group(function () {
     Route::get('/dashboard', [PageController::class, 'dashboard']);
     Route::get('/supply', [PageController::class, 'supply']);
     Route::get('/demand', [PageController::class, 'demand']);
     Route::get('/contactfarming', [PageController::class, 'contactFarming']);
     Route::get('/investment', [PageController::class, 'investment']);
-});
+// });
 
 
