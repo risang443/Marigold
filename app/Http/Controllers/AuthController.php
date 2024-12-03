@@ -58,8 +58,8 @@ class AuthController extends Controller
                 $request->session()->regenerate();
     
                 if (Auth::check()) {
-                    // return redirect('/dashboard')->with('success', 'Login successful');
-                    dd("KONTOL");
+                    return redirect('/dashboard')->with('success', 'Login successful');
+                    // dd("KONTOL");
                 } else {
                     dd('Authentication successful but session not persisting.');
                 }
