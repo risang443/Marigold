@@ -44,12 +44,12 @@
                 </p>
             </div>
 
-            <h1 class="mt-8 p-2 text-purple font-['Poppins'] text-4xl text-center font-bold"> Introduction Video </h1>
+            {{-- <h1 class="mt-8 p-2 text-purple font-['Poppins'] text-4xl text-center font-bold"> Introduction Video </h1>
 
             <!-- Paragraph Content for UG Store -->
             <div class="flex flex-wrap justify-center items-center p-5 m-4">
                 
-            </div>
+            </div> --}}
         </div>
     </section>
 
