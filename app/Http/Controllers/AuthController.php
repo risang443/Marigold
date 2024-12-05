@@ -59,7 +59,7 @@ class AuthController extends Controller
     
                 if (Auth::check()) {
                     return redirect('/dashboard')->with('success', 'Login successful');
-                    // dd("KONTOL");
+                    // dd("bisa kok");
                 } else {
                     dd('Authentication successful but session not persisting.');
                 }

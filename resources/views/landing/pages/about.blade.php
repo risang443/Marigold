@@ -43,6 +43,13 @@
                     Join us on this journey to explore the beauty and benefits of marigold flowers!
                 </p>
             </div>
+
+            <h1 class="mt-8 p-2 text-purple font-['Poppins'] text-4xl text-center font-bold"> Introduction Video </h1>
+
+            <!-- Paragraph Content for UG Store -->
+            <div class="flex flex-wrap justify-center items-center p-5 m-4">
+                
+            </div>
         </div>
     </section>
 
