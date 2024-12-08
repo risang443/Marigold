@@ -12,6 +12,11 @@
     </div>
     <div class="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
         <h2 class="text-2xl font-bold text-center text-darkpurple mb-4">Login</h2>
+        @if (session('success'))
+            <div class="mb-4">
+                <p class="text-green-600">{{ session('success') }}</p>
+            </div>
+        @endif
         @if ($errors->any())
             <div class="mb-4">
                 <ul class="text-red-600">
