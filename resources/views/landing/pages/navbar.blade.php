@@ -1,4 +1,4 @@
-<nav class="bg-white border-gray-200 dark:border-gray-700">
+<nav class="bg-white border-gray-200">
   <div class="max-w-screen-2xl flex items-center justify-between mx-auto p-4 border-b-2 border-b-black">
     <!-- Mobile Menu Button -->
     <button id="menu-toggle" class="lg:hidden text-black">
@@ -8,14 +8,14 @@
     <!-- Desktop Navigation Links -->
     <div class="hidden w-full lg:block lg:w-auto" id="navbar-menu">
       <ul class="flex flex-col font-medium lg:flex-row lg:space-x-8 rtl:space-x-reverse">
-        <li><a href="/" class="block py-2 px-3 text-black text-md lg:hover:text-blue-700">Home</a></li>
-        <li><a href="/shop" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Shop</a></li>
-        <li><a href="/experience" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Experience</a></li>
+        <li><a href="/" class="block py-2 px-3 text-black text-sm lg:hover:text-blue-700">Home</a></li>
+        <li><a href="/shop" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">Shop</a></li>
+        <li><a href="/experience" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">Experience</a></li>
 
         <!-- Offering Dropdown -->
         <li class="relative">
           <button
-            class="flex items-center py-2 px-3 text-md text-gray-900 hover:text-blue-800"
+            class="flex items-center py-2 px-3 text-sm text-gray-900 hover:text-blue-800"
             id="dropdown-offering"
           >
             Offering
@@ -34,12 +34,12 @@
           </div>
         </li>
 
-        <li><a href="/partnership" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Partnership</a></li>
+        <li><a href="/partnership" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">Partnership</a></li>
 
         <!-- UG Smart Farm Monitoring Dropdown -->
         <li class="relative">
           <button
-            class="flex items-center py-2 px-3 text-md text-gray-900 hover:text-blue-800"
+            class="flex items-center py-2 px-3 text-sm text-gray-900 hover:text-blue-800"
             id="dropdown-monitoring"
           >
             UG Smart Farm Monitoring
@@ -59,7 +59,7 @@
         <!-- Visit Dropdown -->
         <li class="relative">
           <button
-            class="flex items-center py-2 px-3 text-md text-gray-900 hover:text-blue-800"
+            class="flex items-center py-2 px-3 text-sm text-gray-900 hover:text-blue-800"
             id="dropdown-visit"
           >
             Visit
@@ -76,28 +76,28 @@
           </div>
         </li>
 
-        <li><a href="/about" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">About Us</a></li>
-        <li><a href="/gallery" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Gallery</a></li>
-        <li><a href="/faq" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">FAQ</a></li>
-        <li><a href="/contact" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Contact</a></li>
-        <li><a href="/cart" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Shopping Cart</a></li>
+        <li><a href="/about" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">About Us</a></li>
+        <li><a href="/gallery" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">Gallery</a></li>
+        <li><a href="/faq" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">FAQ</a></li>
+        <li><a href="/contact" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">Contact</a></li>
+        <li><a href="/cart" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">Shopping Cart</a></li>
         @auth
         <!-- Jika Sudah Login -->
         <li>
           <form action="{{ route('logout') }}" method="POST" class="inline">
             @csrf
-            <button type="submit" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">
+            <button type="submit" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">
               Logout
             </button>
           </form>
         </li>
         <!-- Opsional: Tampilkan Nama Pengguna -->
         <li>
-          <span class="block py-2 px-3 text-md text-gray-900">Hi, {{ Auth::user()->username }}</span>
+          <span class="block py-2 px-3 text-sm text-gray-900">Hi, {{ Auth::user()->username }}</span>
         </li>
       @else
         <!-- Jika Belum Login -->
-        <li><a href="/login" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Login</a></li>
+        <li><a href="/login" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">Login</a></li>
       @endauth
       </ul>
     </div>
@@ -112,14 +112,14 @@
       <i class="fi fi-rr-cross"></i>
     </button>
     <ul class="flex flex-col space-y-2 font-medium">
-      <li><a href="/" class="block py-1 px-3 text-black text-md">Home</a></li>
+      <li><a href="/" class="block py-1 px-3 text-black text-sm">Home</a></li>
       <li><a href="/shop" class="block py-1 px-3 text-gray-900 hover:text-blue-800">Shop</a></li>
       <li><a href="/experience" class="block py-1 px-3 text-gray-900 hover:text-blue-800">Experience</a></li>
       
       <!-- Offering Dropdown -->
       <li class="relative">
         <button
-          class="flex items-center py-1 px-3 text-md text-gray-900 hover:text-blue-800"
+          class="flex items-center py-1 px-3 text-sm text-gray-900 hover:text-blue-800"
         >
           Offering
           <i class="fi fi-rr-angle-small-down ml-1"></i>
@@ -132,12 +132,12 @@
         </ul>
       </li>
 
-      <li><a href="/partnership" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Partnership</a></li>
+      <li><a href="/partnership" class="block py-1 px-3 text-sm text-gray-900 hover:text-blue-800">Partnership</a></li>
 
       <!-- UG Smart Farm Monitoring Dropdown -->
       <li class="relative">
         <button
-          class="flex items-center py-1 px-3 text-md text-gray-900 hover:text-blue-800"
+          class="flex items-center py-1 px-3 text-sm text-gray-900 hover:text-blue-800"
         >
           UG Smart Farm Monitoring
           <i class="fi fi-rr-angle-small-down ml-1"></i>
@@ -151,7 +151,7 @@
       <!-- Visit Dropdown -->
       <li class="relative">
         <button
-          class="flex items-center py-1 px-3 text-md text-gray-900 hover:text-blue-800"
+          class="flex items-center py-1 px-3 text-sm text-gray-900 hover:text-blue-800"
         >
           Visit
           <i class="fi fi-rr-angle-small-down ml-1"></i>
@@ -162,22 +162,22 @@
         </ul>
       </li>
 
-      <li><a href="/about" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">About Us</a></li>
-      <li><a href="/gallery" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Gallery</a></li>
-      <li><a href="/faq" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">FAQ</a></li>
-      <li><a href="/contact" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Contact</a></li>
-      <li><a href="/cart" class="block py-1 px-3 text-md text-gray-900 hover:text-blue-800">Shopping Cart</a></li>
+      <li><a href="/about" class="block py-1 px-3 text-sm text-gray-900 hover:text-blue-800">About Us</a></li>
+      <li><a href="/gallery" class="block py-1 px-3 text-sm text-gray-900 hover:text-blue-800">Gallery</a></li>
+      <li><a href="/faq" class="block py-1 px-3 text-sm text-gray-900 hover:text-blue-800">FAQ</a></li>
+      <li><a href="/contact" class="block py-1 px-3 text-sm text-gray-900 hover:text-blue-800">Contact</a></li>
+      <li><a href="/cart" class="block py-1 px-3 text-sm text-gray-900 hover:text-blue-800">Shopping Cart</a></li>
       @auth
       <li>
         <form action="{{ route('logout') }}" method="POST" class="inline">
           @csrf
-          <button type="submit" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">
+          <button type="submit" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">
             Logout
           </button>
         </form>
       </li>
     @else
-      <li><a href="/login" class="block py-2 px-3 text-md text-gray-900 hover:text-blue-800">Login</a></li>
+      <li><a href="/login" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">Login</a></li>
     @endauth
     </ul>
   </div>

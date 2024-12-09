@@ -1,9 +1,8 @@
 <?php
 
-use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Auth\LoginController;
-use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\PageController;
+use App\Http\Controllers\ProfileController;
 
 Route::get('/', [PageController::class, 'landing']);
 
@@ -25,26 +24,19 @@ Route::get('/gallery', [PageController::class, 'gallery']);
 Route::get('/faq', [PageController::class, 'faq']);
 Route::get('/cart',[PageController::class,'cart']);
 
-// Auth Route
-
-Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
-Route::post('/login', [LoginController::class, 'login']);
-Route::get('/register', [RegisterController::class, 'showRegisterForm'])->name('register');
-Route::post('/register', [RegisterController::class, 'register']);
-Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
-
-
+Route::get('/dashboard', function () {
+    return view('landing.landing');
+})->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/dashboard', function () {
-        return 'Welcome to your dashboard!';
-    })->name('dashboard');
+    Route::get('/supply',[PageController::class,'supply']);
+    Route::get('/demand',[PageController::class,'demand']);
+    Route::get('/ContactFarming',[PageController::class,'contactFarming']);
+    Route::get('/Investment',[PageController::class,'investment']);
+    
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-Route::get('/debug-auth', function () {
-    return Auth::check() ? 'Authenticated as: ' . Auth::user()->username : 'Not authenticated';
-});
-
-
-
-
+require __DIR__.'/auth.php';
