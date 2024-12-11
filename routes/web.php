@@ -31,8 +31,8 @@ Route::get('/dashboard', function () {
 Route::middleware('redirect')->group(function () {
     Route::get('/supply',[PageController::class,'supply']);
     Route::get('/demand',[PageController::class,'demand']);
-    Route::get('/ContactFarming',[PageController::class,'contactFarming']);
-    Route::get('/Investment',[PageController::class,'investment']);
+    Route::get('/contactfarming',[PageController::class,'contactFarming']);
+    Route::get('/investment',[PageController::class,'investment']);
     
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
