@@ -28,7 +28,7 @@ Route::get('/dashboard', function () {
     return view('landing.landing');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-Route::middleware('auth')->group(function () {
+Route::middleware('redirect')->group(function () {
     Route::get('/supply',[PageController::class,'supply']);
     Route::get('/demand',[PageController::class,'demand']);
     Route::get('/ContactFarming',[PageController::class,'contactFarming']);
@@ -38,5 +38,11 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+
+    // Route::get('/supply',[PageController::class,'supply'])-> middleware('redirect');
+    // Route::get('/demand',[PageController::class,'demand']);
+    // Route::get('/ContactFarming',[PageController::class,'contactFarming']);
+    // Route::get('/Investment',[PageController::class,'investment']);
 
 require __DIR__.'/auth.php';
