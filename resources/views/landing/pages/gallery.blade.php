@@ -15,7 +15,7 @@
                     <img src="{{ asset('image/wa.jpg') }}" alt="" class="size-72 rounded-lg ">
                 </div>
                 <div class="">
-                    <img src="{{ asset('image/wa2.jpg') }}" alt="" class="size-72 rounded-lg">
+                    <img src="{{ asset('image/IMG_0486.png') }}" alt="" class="size-72 rounded-lg">
                 </div>
                 <div class="">
                     <img src="{{ asset('image/IMG_6595.png') }}" alt="" class="size-72 rounded-lg">
@@ -24,18 +24,32 @@
                     <img src="{{ asset('image/IMG_6600.png') }}" alt="" class="size-72 rounded-lg">
                 </div>
                 <div class="">
-                    <img src="{{ asset('image/wa5.jpg') }}" alt="" class="size-72 rounded-lg">
+                    <img src="{{ asset('image/IMG_0558.png') }}" alt="" class="size-72 rounded-lg">
                 </div>
                 <div class="">
                     <img src="{{ asset('image/wa6.jpg') }}" alt="" class="size-72 rounded-lg">
                 </div>
                 <div class="">
-                    <img src="{{ asset('image/wa3.png') }}" alt="" class="size-72 rounded-lg">
+                    <img src="{{ asset('image/IMG_0450.png') }}" alt="" class="size-72 rounded-lg">
                 </div>
                 <div class="">
-                    <img src="{{ asset('image/wa4.png') }}" alt="" class="size-72 rounded-lg">
+                    <img src="{{ asset('image/20240904_091739.jpg') }}" alt="" class="size-72 rounded-lg">
                 </div>
-
+                <div class="">
+                    <img src="{{ asset('image/IMG_6596.png') }}" alt="" class="size-72 rounded-lg">
+                </div>
+                <div class="">
+                    <img src="{{ asset('image/IMG_6406.png') }}" alt="" class="size-72 rounded-lg">
+                </div>
+                <div class="">
+                    <img src="{{ asset('image/20240903_092418.jpg') }}" alt="" class="size-72 rounded-lg">
+                </div>
+                <div class="">
+                    <img src="{{ asset('image/IMG_0558.png') }}" alt="" class="size-72 rounded-lg">
+                </div>
+                <div class="">
+                    <img src="{{ asset('image/WhatsApp Image 2024-09-03 at 11.16.36_06ea8ea9.png') }}" alt="" class="size-72 rounded-lg">
+                </div>
             </div>
 
         </div>
