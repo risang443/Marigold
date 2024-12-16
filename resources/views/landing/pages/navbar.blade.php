@@ -1,5 +1,5 @@
 <nav class="bg-white border-gray-200">
-  <div class="max-w-screen-2xl flex items-center justify-between mx-auto p-4 border-b-2 border-b-black">
+  <div class="max-w-screen-2xl flex items-center justify-center mx-auto p-4 border-b-2 border-b-black">
     <!-- Mobile Menu Button -->
     <button id="menu-toggle" class="lg:hidden text-black">
       <i class="fi fi-rr-menu-burger"></i>
@@ -7,7 +7,7 @@
 
     <!-- Desktop Navigation Links -->
     <div class="hidden w-full lg:block lg:w-auto" id="navbar-menu">
-      <ul class="flex flex-col font-medium lg:flex-row lg:space-x-8 rtl:space-x-reverse">
+      <ul class="flex flex-col font-medium lg:flex-row lg:space-x-6 rtl:space-x-reverse">
         <li><a href="/" class="block py-2 px-3 text-black text-sm lg:hover:text-blue-700">Home</a></li>
         <li><a href="/shop" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">Shop</a></li>
         <li><a href="/experience" class="block py-2 px-3 text-sm text-gray-900 hover:text-blue-800">Experience</a></li>
