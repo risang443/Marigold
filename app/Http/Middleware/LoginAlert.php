@@ -17,8 +17,8 @@ class LoginAlert
     public function handle(Request $request, Closure $next): Response
     {
         if (!Auth::check()) {
-            return redirect()->route('login')
-                ->with('error', 'Anda harus login terlebih dahulu untuk mengakses halaman ini.');
+            return redirect()->route('open')
+                ->with('error', 'Anda harus login terlebih dahulu untuk mengakses halaman ini. Please login before accessing this feature');
         }
 
         return $next($request);

@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\ProfileController;
 
-Route::get('/', [PageController::class, 'landing']);
+Route::get('/', [PageController::class, 'landing'])->name('open');
 
 Route::get('/about', [PageController::class, 'about']);
 Route::get('/plantmonitoring', [PageController::class, 'plantMonitoring']);

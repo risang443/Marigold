@@ -28,4 +28,10 @@
       dropdownMenu.classList.toggle("hidden");
     });
   });
+
+  @if (session('error'))
+    <script>
+        alert("{{ session('error') }}");
+    </script>
+@endif
 </script>

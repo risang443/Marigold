@@ -12,11 +12,7 @@
     </div>
     <div class="w-full max-w-md p-6 bg-white rounded-lg shadow-md">
         <h2 class="text-2xl font-bold text-center text-darkpurple mb-4">Login</h2>
-                @if (session('error'))
-            <div class="alert alert-danger mb-4 text-red-600 bg-red-100 p-3 rounded">
-                {{ session('error') }}
-            </div>
-                @endif
+                
 
         @if (session('success'))
             <div class="mb-4">

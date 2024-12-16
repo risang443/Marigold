@@ -89,6 +89,11 @@
 </div>
 </footer>
 {{-- Script Javascript CDN Flowbite --}}
+@if (session('error'))
+    <script>
+        alert("{{ session('error') }}");
+    </script>
+@endif
 <script src="https://cdn.flowbite.com/flowbite.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
 <script>
