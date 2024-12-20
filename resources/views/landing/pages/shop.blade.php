@@ -14,17 +14,17 @@
         <div class="mx-5 my-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <!-- Oil Category -->
             <div class="p-16 mx-5 bg-cover rounded-lg bg-[url('{{ asset('image/test1.jpg')}}')] bg-center hover:shadow-2xl transition-all">
-                <a href="/shopoil" class="font-['Poppins'] font-bold text-4xl sm:text-6xl md:text-8xl text-white text-center hover:text-amber-300">Oil</a>
+                <a href="{{ LaravelLocalization::getLocalizedURL(app()->getLocale(), route('shopoil')) }}" class="font-['Poppins'] font-bold text-4xl sm:text-6xl md:text-8xl text-white text-center hover:text-amber-300">{{ __('shop.oil') }}</a>
             </div>
 
             <!-- Flowers Category -->
             <div class="p-16 mx-5 bg-cover rounded-lg bg-[url('{{ asset('image/test2.jpg')}}')] bg-center hover:shadow-2xl transition-all">
-                <a href="/shopflowers" class="font-['Poppins'] font-bold text-4xl sm:text-6xl md:text-8xl text-white text-center hover:text-amber-300">Flowers</a>
+                <a href="{{ LaravelLocalization::getLocalizedURL(app()->getLocale(), route('shopflowers')) }}" class="font-['Poppins'] font-bold text-4xl sm:text-6xl md:text-8xl text-white text-center hover:text-amber-300">{{ __('shop.flowers') }}</a>
             </div>
 
             <!-- Tea Category -->
             <div class="p-16 mx-5 bg-cover rounded-lg bg-[url('{{ asset('image/test3.jpg')}}')] bg-center hover:shadow-2xl transition-all">
-                <a href="/shoptea" class="font-['Poppins'] font-bold text-4xl sm:text-6xl md:text-8xl text-white text-center hover:text-amber-300">Tea</a>
+                <a href="{{ LaravelLocalization::getLocalizedURL(app()->getLocale(), route('shoptea')) }}" class="font-['Poppins'] font-bold text-4xl sm:text-6xl md:text-8xl text-white text-center hover:text-amber-300">{{ __('shop.tea') }}</a>
             </div>
         </div>
     </section>

@@ -39,9 +39,9 @@
             <div class="flex justify-center items-center my-7">
                 <div class="bg-purple p-4 my-8 rounded-md">
                     <div class="m-5 p-5 max-w-lg">
-                        <h1 class="text-xl text-white font-bold font-['Poppins'] mb-2">Contact Information</h1>
+                        <h1 class="text-xl text-white font-bold font-['Poppins'] mb-2">{{__("contact.title")}}</h1>
                         <p class="text-md text-white font-light font-['Poppins']">
-                            If you have any questions, would like to explore collaboration opportunities, or require further information about our products, please feel free to reach out to us through the available channels. We are more than happy to assist you in answering your inquiries and providing the necessary information to help you gain a deeper understanding of the products we offer.
+                            {{__("contact.caption")}}
                         </p>
                         <div class="mt-3 flex flex-wrap">
                             <i class="fi fi-rr-envelope text-white font-['Poppins'] w-full mb-5"> ugmarigoldlaris@gmail.com</i>
