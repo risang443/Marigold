@@ -36,9 +36,11 @@ php artisan migrate
 
 php artisan db:seed
 
-### 8. Jalankan Server Lokal
-
+### 8. Jalankan Server Lokal menggunakan 2 terminal 
+#### terminal 1
 php artisan serve
+#### terminal 2 
+npm run dev
 
 ### 9. Akses Aplikasi di Browser
 
