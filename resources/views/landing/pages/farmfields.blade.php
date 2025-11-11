@@ -25,7 +25,7 @@
             <div class="block mx-9 my-5">
                     <h1 class="font-bold text-3xl font-['Poppins'] h-fit w-full my-6 ">Ug Techno Park</h1>
                     <p class="text-lg font-['Poppins'] h-fit">
-                        UG Techno Park is a dynamic hub of innovation, where brilliant ideas are transformed into tangible solutions. Equipped with state-of-the-art facilities and fostering strong collaborations, we drive sustainable technological advancements for a brighter future.
+                        {{__("visit.caption1farm")}}
                     </p>
             </div>
             <div class="flex justify-center my-8 ">
@@ -37,7 +37,7 @@
             <div class="block mx-9 my-5">
                 <h1 class="font-bold text-3xl font-['Poppins'] h-fit w-full my-6 ">Ug Techno Farm</h1>
                 <p class="text-lg font-['Poppins'] h-fit">
-                    UG Techno Farm is a pioneering modern agricultural facility that blends cutting-edge technology with sustainable farming practices. We are committed to enhancing agricultural productivity while preserving our natural resources.
+                    {{__("visit.caption2farm")}}
                 </p>
             </div>
             <div class="flex justify-center my-8 ">

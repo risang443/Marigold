@@ -8,7 +8,7 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => [ 'localize' ]], function () {
     Route::get('/', [PageController::class, 'landing'])->name('open');
 
-    Route::get(LaravelLocalization::transRoute('routes.about'), [PageController::class, 'about'])->name('about');
+    Route::get(LaravelLocalization::transRoute('routes.aboutUs'), [PageController::class, 'about'])->name('about');
     Route::get(LaravelLocalization::transRoute('routes.plantMonitoring'), [PageController::class, 'plantMonitoring'])->name('plantmonitor');
     Route::get(LaravelLocalization::transRoute('routes.weatherMonitoring'), [PageController::class, 'weatherMonitoring'])->name('weathermonitor');
     Route::get(LaravelLocalization::transRoute('routes.partnership'), [PageController::class, 'partnership'])->name('partnership');

@@ -1,0 +1,15 @@
+<?php
+
+return[
+    "title1" => "What is UG Marigold Laris?",
+    "caption1"=> "UG Marigold Laris is a unique place dedicated to celebrating the natural wellness and beauty of marigold flowers. Here, visitors can explore a range of marigold-inspired products crafted with care, from essential oils and soothing teas to vibrant dried flower collections. Committed to eco-friendly practices, UG Marigold Laris invites you to experience the calming, revitalizing essence of marigolds in a serene, sustainable environment that prioritizes both quality and nature. Discover the holistic benefits of marigolds at UG Marigold Laris—a haven for natural wellness and environmental care.",
+    "title2" => "What products do you offer?",
+    "caption2"=> "At UG Marigold Laris, we offer a range of high-quality, marigold-based products designed to enhance wellness and embrace nature. Our Marigold Essential Oil is a pure, antioxidant-rich oil perfect for skincare, aromatherapy, and relaxation. We also provide a Dried Marigold Flower Collection, featuring handpicked, vibrant blooms ideal for crafts, natural décor, and homemade remedies. For a soothing beverage, try our Marigold Petal Tea—a caffeine-free infusion crafted from premium marigold petals that supports relaxation and digestive wellness. Discover the natural benefits of marigolds with our eco-friendly, quality-focused offerings.",
+    "title3" => "How can I place an order?",
+    "caption3"=> "You can place an order through our website by selecting the desired products and proceeding to checkout. Our platform is user-friendly and secure, ensuring a smooth shopping experience. Alternatively, you can contact us directly for custom orders or inquiries about our products.",
+    "title4" => "Does UG Marigold Laris offer consultation on marigold planting?",
+    "caption4"=> "Yes, UG Marigold Laris offers expert consultation on marigold planting! Our team is passionate about sharing knowledge on sustainable cultivation practices, from selecting the right soil and seeds to proper planting techniques for vibrant blooms. Whether you're a beginner or an experienced grower, our personalized guidance will help you cultivate healthy, thriving marigolds for essential oils, teas, or ornamental use. Let us support you on your journey to successful marigold planting!",
+    "title5" => "Does UG Marigold Laris support eco-friendly practices?",
+    "caption5"=> "Yes, UG Marigold Laris proudly supports eco-friendly practices throughout our entire production process. From sourcing marigold flowers grown in sustainable, pesticide-free farms to using biodegradable packaging, we are dedicated to reducing our environmental impact. We believe in delivering pure, high-quality products that not only benefit you but also support a healthier planet. With UG Marigold Laris, you can enjoy natural wellness while contributing to a more sustainable future.",
+]
+?>

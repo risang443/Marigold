@@ -30,7 +30,7 @@
             <div class="block mx-9 my-5">
                 <h1 class="font-bold text-3xl font-['Poppins'] w-full my-6">UG Techno Park</h1>
                 <p class="text-lg font-['Poppins']">
-                    UG Techno Park is a dynamic hub of innovation, where brilliant ideas are transformed into tangible solutions. Equipped with state-of-the-art facilities and fostering strong collaborations, we drive sustainable technological advancements for a brighter future.
+                    {{__("visit.caption1farm")}}
                 </p>
             </div>
 
@@ -45,7 +45,7 @@
             <div class="block mx-9 my-5">
                 <h1 class="font-bold text-3xl font-['Poppins'] w-full my-6">UG Techno Giftshop</h1>
                 <p class="text-lg font-['Poppins']">
-                    UG Techno Giftshop is a place where you can buy a variety of quality products from the harvest of UG Marigold fields and farm. Here you can buy everything from flowers to tea made from marigold.
+                    {{__("visit.caption2gift")}}
                 </p>
             </div>
 
