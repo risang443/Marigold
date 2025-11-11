@@ -40,28 +40,28 @@
   
         <!-- Product Section -->
         <div>
-          <h1 class="text-white text-lg font-semibold font-['Poppins']">Product</h1>
+          <h1 class="text-white text-lg font-semibold font-['Poppins']">{{ __('menu.product') }}</h1>
           <ul class="text-white text-sm font-['Poppins']">
             <div class="flex flex-col gap-2 mt-3">
-                <li><a class="hover:underline" href="">Overview</a></li>
+                <li><a class="hover:underline" href="">{{ __('menu.overview') }}</a></li>
             </div>
         </ul>
     </div>
     <div class="">
-        <h1 class="text-white text-lg font-semibold font-['Poppins']">Company</h1>
+        <h1 class="text-white text-lg font-semibold font-['Poppins']">{{ __('menu.company') }}</h1>
         <ul class="text-white text-sm font-['Poppins']">
             <div class="flex flex-col gap-2 mt-3">
-                <li><a class="hover:underline" href="/about">About Us</a></li>
-                <li><a class="hover:underline" href="">Blog</a></li>
-                <li><a class="hover:underline" href="">Career</a></li>
-                <li><a class="hover:underline" href="/faq">FAQ</a></li>
-                <li><a class="hover:underline" href="">Media kit</a></li>
+                <li><a class="hover:underline" href="/about">{{ __('menu.aboutUs') }}</a></li>
+                <li><a class="hover:underline" href="">{{ __('menu.blog') }}</a></li>
+                <li><a class="hover:underline" href="">{{ __('menu.career') }}</a></li>
+                <li><a class="hover:underline" href="/faq">{{ __('menu.faq') }}</a></li>
+                <li><a class="hover:underline" href="">{{ __('menu.mediaKit') }}</a></li>
             </div>
         </ul>
     </div>
         <!-- Contact Us Section -->
          <div>
-            <h1 class="text-white text-lg font-semibold font-['Poppins']">Contact Us</h1>
+            <h1 class="text-white text-lg font-semibold font-['Poppins']">{{ __('menu.contactUs') }}</h1>
             <!-- Add contact details here -->
             <ul class="text-white text-sm font-['Poppins']">
                 <div class="flex flex-col gap-2 mt-3">
@@ -123,4 +123,18 @@
       dropdownMenu.classList.toggle("hidden");
     });
   });
+</script>
+<script>
+    const button = document.getElementById('dropdownButton');
+    const menu = document.getElementById('dropdownMenu');
+
+    button.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+    });
+
+    document.addEventListener('click', (event) => {
+        if (!button.contains(event.target) && !menu.contains(event.target)) {
+            menu.classList.add('hidden');
+        }
+    });
 </script>

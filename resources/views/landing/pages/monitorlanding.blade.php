@@ -2,7 +2,7 @@
     <div class="max-w-screen-2xl px-4 py-10 mx-auto">
       <div class="mb-10">
         <h1 class="text-4xl md:text-5xl tracking-tight leading-none font-['Poppins'] font-bold text-purple mb-10">
-          UG Smart Farm Monitoring
+          {{ __('home.UGSmartFarmMonitoring') }}
         </h1>
       </div>
       
@@ -11,7 +11,7 @@
         <!-- Plant Monitoring -->
         <div class="">
           <a
-            href="/plantmonitoring"
+            href="{{ LaravelLocalization::getLocalizedURL(app()->getLocale(), route('plantmonitor')) }}"
             class="flex flex-col sm:flex-row items-center bg-purple border border-gray-200 rounded-lg hover:bg-yellow hover:shadow-2xl"
           >
             <img
@@ -21,7 +21,7 @@
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-white">
-                Plant Monitoring
+                {{ __('home.plantMonitoring') }}
               </h5>
             </div>
           </a>
@@ -30,7 +30,7 @@
         <!-- Weather Monitoring -->
         <div class="">
           <a
-            href="/weathermonitoring"
+            href="{{ LaravelLocalization::getLocalizedURL(app()->getLocale(), route('weathermonitor')) }}"
             class="flex flex-col sm:flex-row items-center bg-purple border border-gray-200 rounded-lg hover:bg-yellow hover:shadow-2xl"
           >
             <img
@@ -40,7 +40,7 @@
             />
             <div class="flex flex-col justify-between p-4 leading-normal">
               <h5 class="mb-2 text-xl md:text-2xl font-bold tracking-tight text-white">
-                Weather Monitoring
+                {{ __('home.weatherMonitoring') }}
               </h5>
             </div>
           </a>

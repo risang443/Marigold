@@ -3,13 +3,13 @@
       <!-- Header -->
       <div class="flex justify-between items-center">
         <h1 class="text-5xl tracking-tight leading-none font-['Poppins'] font-bold text-white">
-          Product
+          {{ __('home.product') }}
         </h1>
         <a
           href="/shop"
           class="text-md tracking-tight leading-none font-['Poppins'] text-white hover:underline"
         >
-          View all products
+          {{ __('home.viewAll') }}
         </a>
       </div>
   
@@ -28,10 +28,10 @@
             </div>
             <div class="p-4">
               <h1 class="text-lg font-bold tracking-tight leading-loose font-['Poppins'] text-black">
-                Marigold Essential Oil: Pure, Natural Wellness
+                {{ __('home.essentialOil') }}
               </h1>
               <p class="text-md tracking-tight leading-loose font-['Poppins'] text-gray-700">
-                Discover the calming, skin-loving benefits of our Marigold Essential Oil.
+                {{ __('home.discover') }}
               </p>
             </div>
           </div>
@@ -47,10 +47,10 @@
             </div>
             <div class="p-4">
               <h1 class="text-lg font-bold tracking-tight leading-loose font-['Poppins'] text-black">
-                Marigold Flower Collection: Vibrant, Freshly Harvested Blooms
+                {{ __('home.flowerCollection') }}
               </h1>
               <p class="text-md tracking-tight leading-loose font-['Poppins'] text-gray-700">
-                Experience the beauty and essence of our Marigold Flower Collection.
+                {{ __('home.experience') }}
               </p>
             </div>
           </div>
@@ -66,10 +66,10 @@
             </div>
             <div class="p-4">
               <h1 class="text-lg font-bold tracking-tight leading-loose font-['Poppins'] text-black">
-                Marigold Petal Tea: Soothing, Floral Infusion
+                {{ __('home.petalTea') }}
               </h1>
               <p class="text-md tracking-tight leading-loose font-['Poppins'] text-gray-700">
-                Indulge in the calming, floral notes of our Marigold Petal Tea.
+                {{ __('home.indulge') }}
               </p>
             </div>
           </div>
@@ -88,10 +88,10 @@
             </div>
             <div class="p-4">
               <h1 class="text-lg text-white font-bold tracking-tight leading-loose font-['Poppins']">
-                Marigold Essential Oil: Pure, Natural Wellness
+                {{ __('home.essentialOil') }}
               </h1>
               <p class="text-md text-white tracking-tight leading-loose font-['Poppins']">
-                Discover the calming, skin-loving benefits of our Marigold Essential Oil.
+                {{ __('home.discover') }}
               </p>
             </div>
           </div>
@@ -107,10 +107,10 @@
             </div>
             <div class="p-4">
               <h1 class="text-lg text-white font-bold tracking-tight leading-loose font-['Poppins']">
-                Marigold Flower Collection: Vibrant, Freshly Harvested Blooms
+                {{ __('home.flowerCollection') }}
               </h1>
               <p class="text-md text-white tracking-tight leading-loose font-['Poppins']">
-                Experience the beauty and essence of our Marigold Flower Collection.
+                {{ __('home.experience') }}
               </p>
             </div>
           </div>
@@ -126,10 +126,10 @@
             </div>
             <div class="p-4">
               <h1 class="text-lg text-white font-bold tracking-tight leading-loose font-['Poppins']">
-                Marigold Petal Tea: Soothing, Floral Infusion
+                {{ __('home.petalTea') }}
               </h1>
               <p class="text-md text-white tracking-tight leading-loose font-['Poppins']">
-                Indulge in the calming, floral notes of our Marigold Petal Tea.
+                {{ __('home.indulge') }}
               </p>
             </div>
           </div>
